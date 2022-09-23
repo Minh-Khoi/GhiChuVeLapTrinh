@@ -2,3 +2,6 @@
 
 
 - In Eclipse, the configuration of Servlet class is done by the tags in web.xml: <servlet>, <servlet-name>, <servlet-mapping>, <url-pattern>
+
+
+Ngoài ra còn một cách thứ ba là tạo ra một instance của ServletConfig class và truyền instance đó vào method khởi tạo lớp cha super()
