@@ -1,0 +1,4 @@
+- In Netbeans, the configuration of Servlet class is done by the annotation @WebServlet
+
+
+- In Eclipse, the configuration of Servlet class is done by the tags in web.xml: <servlet>, <servlet-name>, <servlet-mapping>, <url-pattern>
