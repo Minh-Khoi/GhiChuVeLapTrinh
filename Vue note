@@ -1,0 +1,5 @@
+- Có 02 cách khỏi tạo project Vue
+
+      + Sử dụng câu lệnh npm init vue (nếu muốn đảm bảo tạo vue phiên bản mới nhất thì dùng vue@latest)
+      + Sử dụng Vue-cli: + có thể sử dụng trực tiếp câu lệnh "vue create <project-name>"
+                         + hoặc gõ "vue ui" để sử dụng giao diện đồ họa
