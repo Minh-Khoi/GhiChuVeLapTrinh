@@ -1,0 +1,12 @@
+- Cần chú ý rằng maven cài đặt trong OS enviroment là khác với maven trên IDE như Eclipse và Netbean. Bản thân maven tích hợp trong mỗi phần mêm IDE cũng là riêng biệt.
+Tuy nhiên, về repository chúng đều trỏ về cùng một thư mục là {username}/.m2/repository
+
+- Cài đặt hoặc re-install Maven trên OS enviroment, khá dễ. Tất cả đã có trên Website của Apache Maven. Khi thực hiện các câu lệnh init ra một maven project cụ thể, truy
+cập Apache Maven Archetype.
+
+- Cài đặt hoặc re-install Maven trên IDE eclipse, có chút phức tạp. Cần phải đảm bảo có 02 plugin được Eclipse install thành công: 
+"Eclipse m2e - Maven support in Eclipse IDE" và "Maven (Java EE) Integration for Eclipse WTP". Nếu không thành công thì uninstall cả hai và cài lại cả hai lần nữa
+(sẽ mất chút thời gian)
+                                                
+- Cài đặt hoặc re-install Maven trên IDE netbean, vốn dĩ đã được cài đặt sẵn rồi. Nếu có lỗi ... cài lại cả IDE
+                                     
