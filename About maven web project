@@ -8,5 +8,5 @@ cập Apache Maven Archetype.
 "Eclipse m2e - Maven support in Eclipse IDE" và "Maven (Java EE) Integration for Eclipse WTP". Nếu không thành công thì uninstall cả hai và cài lại cả hai lần nữa
 (sẽ mất chút thời gian)
                                                 
-- Cài đặt hoặc re-install Maven trên IDE netbean, vốn dĩ đã được cài đặt sẵn rồi. Nếu có lỗi ... cài lại cả IDE
+- Cài đặt hoặc re-install Maven trên IDE Netbeans, vốn dĩ từ bản Netbeans 10 trở đi đã được cài đặt sẵn Maven rồi. Nếu có lỗi ... cài lại cả IDE
                                      
