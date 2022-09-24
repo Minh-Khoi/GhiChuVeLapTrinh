@@ -1,0 +1,9 @@
+Một JSP hoạt động với vai trò tương tự như Servlet, trong đó:
+    - Cả hai đêu nhận request thông qua đường dẫn (urlPatern). urlPatern của JSP chính là đường dẫn của file .jsp.
+    - Các HTML markup được ghi trực tiếp trên file JSP, thay vì ghi thông qua PrintWriter như trong Servlet
+    - Request được truy cập trực tiếp trên file JSP thông qua biến "request", còn response trả về là toàn bộ file JSP được in ra
+    sau khi đã thực thi tất cả các câu lệnh Java trong file JSP
+
+Hết sức chống chỉ định việc sử dụng file JSP để thực hiện logical process (dù điều này hoàn toàn có thể làm được). 
+sLogical Process nên được thực hiện ở file Servlet và sau đó gửi data vào request đến file JSP. 
+File JSP chỉ nên có nhiệm vụ show HTML ra mà thôi.
